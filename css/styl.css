@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.animation {
+    width: 1100px;
+    margin: auto;
+
+}
+
+.bab {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #2ecc71;
+    animation: slim 4s linear alternate infinite;
+}
+
+.bab1,.bab2, .bab3, .bab4, .bab5, .bab6, .bab7, .bab8, .bab9, .bab10, .bab11, .bab12, .bab13, .bab14, .bab15, .bab16, .bab17, .bab18, .bab19, .bab20 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.bab1 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.7s;
+}
+.bab2 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .3s;
+}
+
+.bab3 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .4s;
+}
+
+.bab4 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .5s;
+}
+
+.bab5 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .6s;
+}
+
+.bab6 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .7s;
+}
+
+.bab7 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .8s;
+}
+
+.bab8 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: .9s;
+}
+
+.bab9 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1s;
+}
+
+.bab10 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.1s;
+}
+
+.bab11 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.2s;
+}
+
+.bab12 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.3s;
+}
+
+.bab13 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.4s;
+}
+
+.bab14 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.5s;
+}
+
+.bab15 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.6s;
+}
+
+.bab16 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.8s;
+}
+
+.bab17 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 1.9s;
+}
+
+.bab18 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 2s;
+}
+
+.bab19 {
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 2.1s;
+}
+.bab20{
+    animation: slim 4s linear infinite alternate;
+    animation-delay: 2.2s;
+}
+
+
+@keyframes slim {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(0.9);
+        border: 1px solid #3498db;
+    }
+    20% {
+        transform: scale(0.8);
+        border: 1px solid #9b59b6;
+    }
+    30% {
+        transform: scale(0.7);
+        border: 1px solid #f1c40f;
+    }
+    40% {
+        transform: scale(0.6);
+        border: 1px solid #e67e22;
+    }
+    50% {
+        transform: scale(0.5);
+        border: 1px solid #c0392b;
+    }
+    60% {
+        transform: scale(0.4);
+        border: 1px solid #38ada9;
+    }
+    70% {
+        transform: scale(0.3);
+        border: 1px solid blue;
+    }
+    80% {
+        transform: scale(0.2);
+        border: 1px solid salmon;
+    }
+    90% {
+        transform: scale(0.1);
+        border: 1px solid #b71540;
+    }
+    100% {
+        transform: scale(0);
+        border: 1px solid #e58e26;
+    }
+
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 100% ;
+    float: right;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    animation: rotate 3s linear  infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
