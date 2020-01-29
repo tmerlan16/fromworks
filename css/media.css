@@ -1,16 +1,25 @@
+
+@media (max-width: 1200px) {
+    .mac-img{
+        width: 550px;
+        height: 400px;
+    }
+}
 @media (max-width: 992px) {
     .menu{
         display: none;
     }
+    #About-Us{
+        height: 1000px;
+    }
     .burger-menu_button{
         display: block;
     }
-
-
-
-    #About-Us{
-        height: 1100px;
+    .mac-img{
+        width: 800px;
+        height: 500px;
     }
+
     #services{
         height: 700px;
     }
@@ -19,5 +28,30 @@
     }
     #contact-us{
         height: 900px;
+    }
+}
+@media (max-width: 776px){
+    #About-Us{
+        height: 900px;
+    }
+    .mac-img{
+        width: 500px;
+        height: 400px;
+    }
+    .About-Us__subtitle{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .About-Us__title{
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .About-Us__title_description{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .About-Us__list{
+        font-size: 16px;
+        margin-left: 20px;
     }
 }

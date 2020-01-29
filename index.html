@@ -33,16 +33,16 @@
             </nav>
             <div class="burger-menu">
                 <a href="" class="burger-menu_button">
-                    <span></span>
+                    <span class="burger-menu_lines"></span>
                 </a>
-<!--                <nav class="burger-menu_nav">-->
-<!--                    <a href="#hero" class="burger-menu_link">Home</a>-->
-<!--                    <a href="#About-Us" class="burger-menu_link">About </a>-->
-<!--                    <a href="#Our-team" class="burger-menu_link">Services </a>-->
-<!--                    <a href="#services" class="burger-menu_link">Portfolio </a>-->
-<!--                    <a href="#clients" class="burger-menu_link">Testimonials </a>-->
-<!--                    <a href="#work" class="burger-menu_link">Contact </a>-->
-<!--                </nav>-->
+                <nav class="burger-menu_nav">
+                    <a href="#hero" class="burger-menu_link">Home</a>
+                    <a href="#About-Us" class="burger-menu_link">About </a>
+                    <a href="#Our-team" class="burger-menu_link">Services </a>
+                    <a href="#services" class="burger-menu_link">Portfolio </a>
+                    <a href="#clients" class="burger-menu_link">Testimonials </a>
+                    <a href="#work" class="burger-menu_link">Contact </a>
+                </nav>
                 <div class="burger-menu_overlay"></div>
             </div>
         </div>
@@ -71,10 +71,10 @@
         <section id="About-Us">
             <div class="container">
                 <div class="row">
-                    <div class="co-lg-6 col-md-6 col-sm-12 wow slideInLeft display-1">
-                        <img src="./img/mac.png" alt="">
+                    <div class="col-xl-6 co-lg-6 col-md-12 col-sm-12 wow slideInLeft ">
+                        <img src="./img/mac.png" class="mac-img" alt="">
                     </div>
-                    <div class="co-lg-6 col-md-6 col-sm-12 wow slideInRight display-1">
+                    <div class="col-xl-6 co-lg-6 col-md-12 col-sm-12 wow slideInRight ">
                         <h3 class="About-Us__subtitle">
                             About US
                         </h3>
@@ -98,7 +98,7 @@
                 <h2 class="titles wow bounceInDown delay-0.8s">
                     Meet our team
                 </h2>
-                <div class="row Our-team_content">
+                <div class="row Our-team_content owl-carousel">
                     <div class="col-lg-3 text-center wow rollIn delay-0.8s">
                         <img src="./img/jason.jpg" class="Our-team_img" alt="">
                         <h3 class="Our-team_title">Jason Statham</h3>
@@ -145,7 +145,7 @@
                     (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
                     The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                 </p>
-                <div class="row  ">
+                <div class="row owl-carousel ">
                     <div class="col-lg-3 text-center">
                         <div class="services_icons">
                             <svg
@@ -417,7 +417,7 @@
                        </div>
                    </div>
                </div>
-                <div class="tab tab2">
+                <div class="tab tab2 ">
                     <div class="row pt-4">
                         <div class="col-lg-3 col-md-6  pt-4">
                             <div class="testimonials_slide">
@@ -465,7 +465,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab tab3">
+                <div class="tab tab3 ">
                     <div class="row pt-4">
                         <div class="col-lg-3 col-md-6  pt-4">
                             <div class="testimonials_slide">
@@ -512,7 +512,9 @@
 
                         </div>
                     </div>
+                </div>
                     <div class="tab tab4">
+                        <div class="row pt-4">
                         <div class="col-lg-3 col-md-6">
                             <div class="testimonials_slide">
                                 <img src="./img/mobile.png" class="testimonials_img" alt="">
@@ -556,9 +558,9 @@
                                 </div>
                             </div>
 
+                        </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </section>
@@ -572,7 +574,8 @@
                 <h3 class="work_subtitle">Dean Martin, <span>CEO Acme lns.</span></h3>
             </div>
         </section>
-        <section id="contact-us">
+
+        <section id="contact-us ">
             <div class="container">
                 <h2 class="titles">Feel free to  <span>contact us</span></h2>
                 <p class="services_description">
@@ -580,14 +583,14 @@
                     (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
                 </p>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-8">
                         <h3 class="contact-us_input__name">
                             Name <span>*</span>
                         </h3>
                         <input type="text"id="name"class="contact-us_input" required>
                         <label for="name"></label>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-8">
                         <h3 class="contact-us_input__name">
                             Email address <span>*</span>
                         </h3>
@@ -600,7 +603,7 @@
                         </h3>
                         <textarea name="message" id="" class="message" rows="8"></textarea>
                     </div>
-                   <div class="col-lg-1 offset-10">  <button class="btn_send">Send</button></div>
+                   <div class="col-lg-1 offset-11">  <button class="btn_send">Send</button></div>
                 </div>
             </div>
         </section>
@@ -621,32 +624,32 @@
     <script src="./js/main.js"></script>
     <script src="./js/owl.carousel.min.js">
     </script>
-<!--    <script>-->
-<!--        $(document).ready(function(){-->
-<!--            $(".owl-carousel").owlCarousel({-->
-<!--                responsive:{-->
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                responsive:{
 
-<!--                    992:{-->
-<!--                        items:1,-->
-<!--                    },-->
-<!--                    768:{-->
-<!--                        items:3-->
-<!--                    },-->
-<!--                    576:{-->
-<!--                        items:2-->
-<!--                    },-->
-<!--                    200:{-->
-<!--                        items:2-->
-<!--                    }-->
-<!--                },-->
+                    992:{
+                        items:0,
+                    },
+                    768:{
+                        items:3
+                    },
+                    576:{
+                        items:2
+                    },
+                    200:{
+                        items:2
+                    }
+                },
 
-<!--                nav:true,-->
-<!--                loop:true,-->
-<!--                // navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],-->
+                nav:true,
+                loop:true,
+                // navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
 
-<!--            });-->
-<!--        });-->
-<!--    </script>-->
+            });
+        });
+    </script>
 
     <script src="./js/wow.min.js"></script>
     <script>
